@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 40px;
+    background-color: tomato;
+    display: flex;
+    /* alinear en el eje x */
+    justify-content: right  ;
+    /* centrar en el eje Y */
+    align-items: center;
+}
+
+.header__item{
+    margin: 0px 40px;
+}
