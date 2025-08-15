@@ -3,3 +3,51 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/*Contenido principal*/
+.main{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.contenedor{
+    display: flex;
+    gap: 30px;
+}
+
+.contenedor__tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contenedor__tarjetas{
+    width: 300px;
+    background-color: tomato;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 10px 15px rgb(255, 180, 88);
+    text-align: center;
+}
+
+.titulo{
+    margin: 40px;
+    font-weight: bold;
+}
+
+.Tarjetas__titulo{
+    margin: 10px;
+    color: brown;
+}
+
+.Tarjetas__texto{
+    font-size: 1.1rem;
+    color: black;
+}
+
+.imagen{
+    width: 80%;
+    border-radius: 10px;
+    object-fit: cover;
+}
