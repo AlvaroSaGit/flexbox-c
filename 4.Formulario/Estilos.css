@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+h1{
+    margin-top: 20px;
+    font-weight: bold;
+    color: brown;
+}
+
+.contenedor__formulario{
+    height: 180px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: bisque;
+    box-shadow: 10px 15px coral;
+}
+label{
+    margin-left: 10%;
+}
+input{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.button{
+    width: 80px;
+    margin: 0 auto;
+    border-radius: 10px;
+    height: 20px;
+}
