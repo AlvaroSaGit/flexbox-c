@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+}
+
+.contenedor__lista{
+    display: flex;
+}
+
+.caja{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+p{
+    font-size: 1.2rem;
+}
