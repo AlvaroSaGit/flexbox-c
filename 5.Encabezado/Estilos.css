@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    background-color: tomato;
+    align-items: center;
+    height: 50px;
+}
+
+.imagen{
+    width: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 5px 5px white;
+}
+
+.encabezado{
+    display: flex;
+    gap: 60px;
+}
+
+.encabezado__opciones{
+    font-size: 2rem;
+    color: brown;
+    font-weight: bold;
+}
