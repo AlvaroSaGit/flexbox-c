@@ -14,11 +14,15 @@ h1{
     display: flex;
     justify-content: center;
 }
-
+/*contenedor del contenido*/
 .contenedor-variante{
     width: 80%;
 }
-
+/*Imagen izquierda*/
+.imagen{
+    border-radius: 50%;
+}
+/*Texto derecho*/
 .contenedor__texto{
     padding: 40px;
 }
@@ -31,6 +35,20 @@ p{
     font-size: 1.5rem;
 }
 
-.imagen{
-    border-radius: 50%;
+/*Footer*/
+
+.footer{
+    display: flex;
+    margin-top: 50px;
+    align-items: center; /*Centra en Y*/
+    justify-content: center; /*Centra en X*/
+    background-color: tomato;
+    height: 120px;
+    gap: 50px;
+}
+
+.footer__columna p{
+    color: brown;
+    font-weight: bold;
+    font-size: 1.8rem;
 }
